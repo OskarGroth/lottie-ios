@@ -12,7 +12,7 @@ let package = Package(
         .target(
             name: "Lottie",
             path: "lottie-swift/src",
-            exclude: ["Public/MacOS"]
+            exclude: ["Public/iOS"]
         )
     ]
 )
